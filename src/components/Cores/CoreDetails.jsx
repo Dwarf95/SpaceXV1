@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function CapsuleDetails() {
+export default function CoreDetails() {
     return (
         <div>
             
