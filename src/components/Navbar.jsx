@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-primary-dark-sky text-white border-bottom border-white">
+    <nav className="navbar navbar-expand-lg bg-primary-dark-sky text-white">
       <a className="navbar-brand text-white" href="/">
-        Navbar w/ text
+        SpaceFun
       </a>
       <button
         className="navbar-toggler text-white"
@@ -20,22 +20,47 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarText">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link text-white" href="#">
+            <a className="nav-link text-white" href="/">
               Home <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="#">
-              Features
+            <a className="nav-link text-white" href="/capsules">
+              Capsules
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" href="#">
-              Pricing
+              Cores
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-white" href="#">
+              Landing Pads
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-white" href="#">
+              Missions
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-white" href="#">
+              Payloads
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-white" href="#">
+              Rockets
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-white" href="/spacex">
+              SpaceX
             </a>
           </li>
         </ul>
-        <span className="navbar-text">Navbar text with an inline element</span>
+        <h6 className="text-white position-creds">Created by <a href="https://www.linkedin.com/in/lazar-stankovic-44a199177/" className="text-danger-custom">Lazar Stanković</a> &copy; 2020</h6>
       </div>
     </nav>
   );
