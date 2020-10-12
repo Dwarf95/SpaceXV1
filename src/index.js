@@ -7,13 +7,17 @@ import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Company from "./components/Company/Company";
-import ListCapsules from "./components/Capsules/ListCapsules"
+import ListCapsules from "./components/Capsules/ListCapsules";
+import ListCores from "./components/Cores/ListCores";
+
+
 const routing = (
   <Router>
     <Switch>
       <Route exact path="/" component={Home}></Route>
       <Route exact path="/spacex" component={Company}></Route>
       <Route exact path="/capsules" component={ListCapsules}></Route>
+      <Route exact path="/cores" component={ListCores}></Route>
       <Route component={NotFound}></Route>
     </Switch>
   </Router>

@@ -31,8 +31,8 @@ export default function ListCapsules() {
                   className="card special-card bg-transparent text-white border border-white"
                 >
                   <div className="card-body">
-                    <h5 className="card-title border-bottom border-white">
-                      CAPSULE SERIAL: {item.capsule_serial}
+                    <h5 className="card-title border-bottom border-white text-uppercase">
+                      {item.capsule_id}
                     </h5>
                     <p className="card-text">{item.details}</p>
                   </div>
